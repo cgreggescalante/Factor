@@ -76,7 +76,7 @@ public class Factorator extends PApplet {
                         }
                     }
 
-                    circle(x, y, NODE_SIZE);
+                    ellipse(x, y, NODE_SIZE, NODE_SIZE);
                     fill(51);
                     text(String.valueOf(level.get(j)), x, y);
                 }
